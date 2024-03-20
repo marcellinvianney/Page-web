@@ -1,0 +1,73 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.349);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav li {
+    margin-right: 10px; 
+}
+
+nav li:last-child {
+    margin-right: 0; 
+}
+.begin {
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    margin-right: auto;
+}
+nav{
+    margin-left: auto;
+}
+
+/* Styles pour les projets */
+.project {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.project img {
+    float: left;
+    margin-right: 20px;
+    max-width: 200px;
+    max-height: 150px;
+}
+.project h2 {
+    margin-top: 0;
+}
+.end {
+    display:flex;
+    justify-content: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
