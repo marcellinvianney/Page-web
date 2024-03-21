@@ -1,5 +1,4 @@
 
-
 body {
     font-family: Arial, sans-serif;
     margin: 0px;
@@ -57,7 +56,9 @@ nav{
     overflow: hidden;
     border: 1;
 }
-
+.slider {
+    display: flex;
+}
 
 footer {
     background-color: #333;
@@ -110,5 +111,11 @@ footer {
 }
 #img4:checked ~ .m4 {
     margin-left: -300%;
+}
+#img5:checked ~ .m5 {
+    margin-left: -400%;
+}
+#img6:checked ~ .m6 {
+    margin-left: -500%;
 }
 

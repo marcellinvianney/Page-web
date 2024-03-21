@@ -10,32 +10,57 @@
 <body>
     <header>
         <div class="begin">
-            <h1>Mon Portfolio</h1>
-            <img src="logowatch.jpg" alt="Logo du site" width="200" height="230">
+            <img src="logowatch.jpg" alt="Logo du site" width="180" height="210">
+            <h1><em>Patek Philippe by Vianney</em></h1>
             <nav>
                 <ul>
-                    <li> Accueil </li>
-                    <li> Contact</li>
-                    <li> A propos </li>
+                    <li> <a href="#accueil">Accueil</a> </li>
+                    <li> <a href="contacts">Contacts</a></li>
+                    <li> <a href="produits">Produits</a> </li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section>
-        <div class="project">
-            <img src="image1.jpg" alt="Projet 1">
-            <h2>Projet 1</h2>
-            <p>Description du projet 1.</p>
+        <!-- <section>
+            <div class="container">
+                <h2>Produits disponibles sur la site</h2>
+                <div class="slider">
+        
+                    <img src="watch3.jpg" alt="Description de l'image" width="200" height="230">
+                    <img src="watch5.jpg" alt="Description de l'image" width="200" height="230">
+                    <img src="watch6.jpg" alt="Description de l'image" width="200" height="230">
+                    <img src="watch7.jpg" alt="Description de l'image" width="200" height="230">
+                    <img src="watch8.jpg" alt="Description de l'image" width="200" height="230">
+                    <img src="watch9.jpg" alt="Description de l'image" width="200" height="230">
+                </div>
+            </div>
+        </section> -->
+        <div class="slider">
+            <div class="images">
+                <input type="radio" name="slide" id="img1" checked>
+                <input type="radio" name="slide" id="img2">
+                <input type="radio" name="slide" id="img3">
+                <input type="radio" name="slide" id="img4">
+                
+    
+                <img src="./watch3.jpg" class="m1" alt="img1">
+                <img src="./watch5.jpg" class="m2" alt="img2">
+                <img src="./watch6.jpg" class="m3" alt="img3">
+                <img src="./watch7.jpg" class="m4" alt="img4">
+                
+                
+            </div>
+            <div class="dots">
+                <label for="img1"></label>
+                <label for="img2"></label>
+                <label for="img3"></label>
+                <label for="img4"></label>
+                
+            </div>
         </div>
-        <div class="project">
-            <img src="image2.jpg" alt="Projet 2">
-            <h2>Projet 2</h2>
-            <p>Description du projet 2.</p>
-        </div>
-        <!-- Ajoutez autant de projets que nécessaire -->
-        </section>
     </main>
+    
     <footer>
         <div class="end">
             <nav>
