@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #c4d4ff; /* Bisque */
+}
+
+header {
+    background-color: #a7a6a6;
+    padding: 20px; /* Réduction de la taille du padding */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Changement de display pour pouvoir définir une largeur */
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px; /* Ajout de padding pour améliorer l'accessibilité */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; /* Ajout de marge en haut */
+}
+
+label {
+    margin-bottom: 10px; /* Augmentation de la marge en bas */
+}
+
+input,
+button {
+    margin-bottom: 20px; /* Augmentation de la marge en bas */
+    padding: 12px; /* Légère augmentation de la taille du padding */
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border: none; /* Suppression de la bordure */
+    transition: background-color 0.3s; /* Ajout d'une transition sur la couleur de fond */
+}
+
+button:hover {
+    background-color: #555; /* Changement de couleur au survol */
+}
+
+.close-button {
+    background-color: rgb(141, 14, 14);
+    width: 100%; /* Modification de la largeur à 100% pour occuper toute la largeur disponible */
+    margin-top: 20px; /* Augmentation de la marge en haut */
+    padding: 15px; /* Augmentation du padding */
+    border: none; /* Suppression de la bordure */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Ajout d'une transition sur la couleur de fond */
+}
+
+.close-button:hover {
+    background-color: rgb(170, 16, 16); /* Changement de couleur au survol */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px; /* Augmentation du padding */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

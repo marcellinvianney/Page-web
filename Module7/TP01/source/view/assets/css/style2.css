@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #fdf3e5; /* Couleur RGB(253, 243, 229) */
+}
+
+header {
+    background-color: #c5c1c1;
+    padding: 20px; /* Augmentation du padding */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block; /* Changement de display pour une meilleure mise en forme */
+    margin-right: 20px;
+    padding: 10px; /* Augmentation du padding */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px; /* Augmentation du padding */
+    background-color: #c5c1c1; /* Changement de couleur */
+    border-radius: 10px; /* Ajout de bordures arrondies */
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); /* Changement de la couleur de l'ombre */
+}
+
+#inscription, #log {
+    background-color: #c5c1c1;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+#un {
+    text-align: center;
+    padding-top: 20px; /* Augmentation de l'espace en haut */
+}
+
+label {
+    margin-bottom: 10px; /* Augmentation de la marge en bas */
+}
+
+input, button {
+    margin-bottom: 20px; /* Augmentation de la marge en bas */
+    padding: 12px; /* Légère augmentation de la taille du padding */
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s; /* Ajout d'une transition sur la couleur de fond */
+}
+
+button:hover {
+    background-color: #555; /* Changement de couleur au survol */
+}
+
+.close-button {
+    background-color: rgb(19, 18, 18);
+    width: 100%; /* Modification de la largeur à 100% pour occuper toute la largeur disponible */
+    margin-top: 20px; /* Augmentation de la marge en haut */
+    padding: 15px; /* Augmentation du padding */
+    border: none; /* Suppression de la bordure */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Ajout d'une transition sur la couleur de fond */
+}
+
+.close-button:hover {
+    background-color: rgb(255, 255, 255); /* Changement de couleur au survol */
+}
+
+section {
+    margin-top: 50px; /* Réduction de la marge en haut */
+}
+
+footer {
+    background-color: #343030;
+    color: #0b0b0b;
+    text-align: center;
+    padding: 20px 0; /* Modification du padding */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
